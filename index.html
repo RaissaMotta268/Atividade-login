@@ -15,33 +15,45 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color: rgb(241, 221, 152);
     }
     #container{
       display: flex;
       width: 80%;
       height: 80%;
+      background-color: rgb(255, 255, 255);
       border-radius: 10px;
     }
-    #cont-esquerda{
+    #container .cont-esquerda{
       display: flex;
       width: 50%;
       height: 100%;
-      background-color: rgb(43, 40, 40);
       justify-content: center;
       align-items: center;
+      background-image: linear-gradient(to right);
+      background-image: url(paisagem.jpg);
+      background-size: cover;
+      border-radius: 10px;
+      
     }
-    #cont-esquerda img{
+    #container .cont-direita{
       display: flex;
-      max-height: 90%;
-      max-width: 90%;
+      width: 50%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      background: ;
     }
   </style>
 
 </head>
 <body>
   <div id="container">
-    <div id="cont-esquerda">
-      <img src="venus.jpg">
+    <div class="cont-esquerda">
+      
+    </div>
+    <div class="cont-direita">
+      a
     </div>
   </div>
 </body>
